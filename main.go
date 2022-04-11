@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"myapp/routes"
+)
 
 func main() {
-	fmt.Println("Hello world!")
+	e := routes.Init()
+
+	e.Logger.Fatal(e.Start(":1234"))
 }
