@@ -1,7 +1,7 @@
 package controllers
 
 import (
-	"github.com/labstack/echo/v4"
+	"github.com/labstack/echo"
 	"myapp/models"
 	"net/http"
 	"strconv"
